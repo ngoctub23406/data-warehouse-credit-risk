@@ -1,0 +1,7 @@
+venv/
+shopping_dw/target/
+shopping_dw/logs/
+shopping_dw/dbt_packages/
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,8 @@
+shopping_dw:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: md:shopping_db?token={{ env_var('MOTHERDUCK_TOKEN') }}
+      schema: main
+      threads: 4
